@@ -1,0 +1,101 @@
+.button{
+    background-color:red !important ;
+    border: none;
+}
+.button:active{
+    background-color:antiquewhite !important;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.mx-auto{
+    font-size: 20px;
+    gap: 10px;
+    font-weight: bold;
+    color: black;
+}
+.container{
+    display: flex;
+}
+
+.heading{
+    width: 600px;
+
+    
+}
+
+h1{
+    font-size: 80px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    display: flex;
+    gap: 150px;
+    border: none;
+    
+}
+
+.shop{
+    background:red !important;
+    border:none;
+}
+
+.shop:active{
+    background:grey !important;
+    border:none;
+
+}
+.category,.category:hover{
+    background: transparent;
+    border: 1px solid black;
+    width: 100;
+    color: black;
+}
+.available {
+    display: flex;
+   
+    gap: 30px;
+}
+@media (max-width: 500px) {
+    .container {
+      display: block; /* Change the display style for .container when the screen is 500px or narrower */
+    }
+  
+    .heading {
+      width: 100%; /* Adjust the width of .heading as needed for a narrower layout */
+    }
+  
+    h1 {
+      font-size:50px; 
+      font-weight: bold;
+    }
+  
+    .btn {
+      display: flex; /* Change the display style for .btn at 500px or narrower */
+      gap: 10px; /* Remove the gap between elements in .btn */
+    }
+    .image img{
+        /* margin-right: -150px; */
+        width: 100%;
+    }
+    .shop {
+      background: red !important;
+    }
+  
+    .category {
+      background: transparent;
+      border: 1px solid black;
+      color: black;
+    }
+    .available {
+        width: 200px;
+        display: flex;
+        /* justify-content: center; */
+        align-items:start;
+        flex-direction: row;
+        gap: 20px;
+        }
+  }
+  
